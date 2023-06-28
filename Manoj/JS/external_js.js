@@ -1,6 +1,6 @@
-// console.log ("this is external js")
-// console.assert (4 > 3 , "wrong answer")
-// console.assert (20<15 , "wrong answer")
+console.log ("this is external js")
+console.assert (4 > 3 , "wrong answer")
+console.assert (20<15 , "wrong answer")
 
 // console.log("This is from external file")
 
@@ -49,30 +49,35 @@
 
 // console.log(a / b)
 
-// function add() {
-//     var results = parseInt(document.getElementById("a").value) + parseInt(document.getElementById("b").value);
-//     document.getElementById("results").innerHTML = results;
-// }
-
-// function subtract() {
-//     var results = parseInt(document.getElementsById("a").value) - parseInt(document.getElementById("b").value);
-//     document.getElementById("results").innerHTML = results;
-// }
-
-// function multiply() {
-//     var results = parseInt(document.getElementsById("a").value) * parseInt(document.getElementById("b").value);
-//     document.getElementById("results").innerHTML = results;
-// }
-
-// function divide() {
-//     var results = parseInt(document.getElementsById("a").value) / parseInt(document.getElementById("b").value);
-//     document.getElementById("results").innerHTML = results;
-// }
-
-
-const student = {
-    name : "Manoj"
-    course : "Engineering"
-    college : "BNMIT"
-    area: "Banashankari"
+function add() {
+    var results = parseInt(document.getElementById("a").value) + parseInt(document.getElementById("b").value);
+    document.getElementById("results").innerHTML = results;
 }
+
+function subtract() {
+    var results = parseInt(document.getElementById("a").value) - parseInt(document.getElementById("b").value);
+    document.getElementById("results").innerHTML = results;
+}
+
+function multiply() {
+    var results = parseInt(document.getElementById("a").value) * parseInt(document.getElementById("b").value);
+    document.getElementById("results").innerHTML = results;
+}
+
+function divide() {
+    var results = parseInt(document.getElementById("a").value) / parseInt(document.getElementById("b").value);
+    document.getElementById("results").innerHTML = results;
+}
+
+
+var college = {
+    "name" : "Manoj",
+    "courses" : ["CS","ME","EC", "EE"],
+    "college" : "BNMIT",
+    "area": "Banashankari"
+}
+
+function displayCollegeDetails() {
+console.log(college)
+}
+displayCollegeDetails();
