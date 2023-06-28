@@ -23,18 +23,20 @@
     </header>
     <main class="container">
         <div class="jsbasics">
-            <div class="d-flex">
-            <div> <input type="number" id="a" class="form-control" placeholder="Enter a Number"></div>
-            <div><input type="number" id="b" class="form-control " placeholder="Enter a Number"></div></div>
-            <div class="results">Results
-                <span id="results">
+            <span>BASIC CALCULATOR</span><hr>
+            <div class="d-flex grid gap-3">
+            <div> <input type="number" id="a" class="form-control  border border-primary" placeholder="Enter a Number"></div>
+            <div><input type="number" id="b" class="form-control  border border-primary" placeholder="Enter a Number"></div></div>
+           <div class="m-3"> <button class="btn btn-primary" id="add" onclick="add()">Add</button>
+            <button class="btn btn-primary" id="subtract" onclick="subtract()">subtract</button>
+            <button class="btn btn-primary" id="multiply" onclick="multiply()">multiply</button>
+            <button class="btn btn-primary" id="divide" onclick="divide()">divide</button></div>
+            <div class="results m-3 ">Results :
+                <span id="results" class="m-3">
                     Result will be displayed here
                 </span>
             </div>
-            <button class="btn btn-primary" id="add" onclick="add()">Add</button>
-            <button class="btn btn-primary" id="subtract" onclick="subtract()">subtract</button>
-            <button class="btn btn-primary" id="multiply" onclick="multiply()">multiply</button>
-            <button class="btn btn-primary" id="divide" onclick="divide()">divide</button>
+           
         </div>
         <!-- <div class="content">
             <section id="fav_games" class="fav d-flex flex-row ">
