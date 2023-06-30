@@ -22,3 +22,27 @@ employee.getGratuity = (employee.years_of_service > 4.5)? true:false;
 if(employee.getGratuity){
     employee.gratuityAmount = 10*12*2000;
 }
+
+///////////////////
+//Best way to travel from Sarjapur to ORR office
+var traffic = {
+    varthur:false,
+    panthur:false,
+};
+
+if(!traffic.varthur)
+{
+    if ( !traffic.panthur)
+    {
+        console.log("Going via panthur bridge");
+    }
+    else
+    {
+        console.log("Going via varthur lake");
+    }
+}
+else
+{
+    console.log("Working from home");
+}
+
