@@ -27,7 +27,7 @@ if(employee.getGratuity){
 //Best way to travel from Sarjapur to ORR office
 var traffic = {
     varthur:false,
-    panthur:false,
+    panthur:true,
 };
 
 if(!traffic.varthur)
@@ -36,9 +36,12 @@ if(!traffic.varthur)
     {
         console.log("Going via panthur bridge");
     }
-    else
+    else if(traffic.varthur_village)
     {
         console.log("Going via varthur lake");
+    }
+    else{
+        console.log("Only god can save me");
     }
 }
 else
