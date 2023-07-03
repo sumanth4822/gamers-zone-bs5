@@ -3,7 +3,7 @@ let user ={
     age : 20,
     place : "bengaluru",
     Nationality : "indian",
-    votingrights : "not eligible",
+    votingrights : "not eligible"
 }
 
 if(user.age>=18 && user.Nationality == "indian"){
