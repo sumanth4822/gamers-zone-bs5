@@ -1,1 +1,25 @@
-https://leetcode.com/problems/3sum/
+Problems on Array
+
+[https://leetcode.com/problems/3sum/](https://leetcode.com/problems/3sum/) - 05/07/23
+
+[https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/) -
+
+[https://leetcode.com/problems/combination-sum/](https://leetcode.com/problems/combination-sum/) -
+
+[https://leetcode.com/problems/richest-customer-wealth/](https://leetcode.com/problems/richest-customer-wealth/) -
+
+[https://leetcode.com/problems/sort-the-people/](https://leetcode.com/problems/sort-the-people/)
+
+[https://leetcode.com/problems/find-numbers-with-even-number-of-digits/](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) -
+
+[https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) -
+
+[https://leetcode.com/problems/matrix-diagonal-sum/](https://leetcode.com/problems/matrix-diagonal-sum/) -
+
+[https://leetcode.com/problems/number-of-arithmetic-triplets/](https://leetcode.com/problems/number-of-arithmetic-triplets/) -
+
+[https://leetcode.com/problems/find-the-highest-altitude/](https://leetcode.com/problems/find-the-highest-altitude/) -
+
+[https://leetcode.com/problems/sum-of-unique-elements/](https://leetcode.com/problems/sum-of-unique-elements/) -
+
+<https://leetcode.com/problems/n-repeated-element-in-size-2n-array/> -
