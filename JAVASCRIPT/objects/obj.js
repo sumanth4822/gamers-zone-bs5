@@ -25,23 +25,17 @@ const gamersZone = {
     }
 };
 
-console.log(gamersZone.name);        // Gamers Zone
-gamersZone.showLocation();           // Location: City X
-gamersZone.showGames();
-// Games available:
-// - Game A
-// - Game B
-// - Game C
-gamersZone.toggleOpen();             // Zone is now closed.
+console.log(gamersZone.name);        
+gamersZone.showLocation();           
+
+gamersZone.toggleOpen();            
 
 const keys = Object.keys(gamersZone);
-console.log(keys);  // ["name", "location", "games", "isOpen", "showLocation", "showGames", "toggleOpen"]
+console.log(keys); 
 
 const values = Object.values(gamersZone);
 console.log(values);
-// ["Gamers Zone", "City X", ["Game A", "Game B", "Game C"], true, ƒ, ƒ, ƒ]
+
 
 const entries = Object.entries(gamersZone);
 console.log(entries);
-// [["name", "Gamers Zone"], ["location", "City X"], ["games", ["Game A", "Game B", "Game C"]],
-//  ["isOpen", true], ["showLocation", ƒ], ["showGames", ƒ], ["toggleOpen", ƒ]]
