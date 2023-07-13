@@ -40,7 +40,7 @@ if (isClean) {
 }
 
 //formatting
-let score = 2350;
+let score = 12345667;
 let formattedScore = score.toLocaleString();
 
 console.log(`Your score: ${formattedScore}`);
