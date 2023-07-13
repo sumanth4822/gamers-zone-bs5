@@ -5,25 +5,25 @@
 //         console.log("WELCOME TO GAMING");
 //     }
 // };
-// const gamersZone = {
-//     name: "Gamers Zone",
-//     location: "INDIA",
-//     games: ["FORTNITE", "COD", "VALORANT"],
-//     isOpen: true,
-//     showLocation: function () {
-//         console.log("Location: " + this.location);
-//     },
-//     showGames: function () {
-//         console.log("Games available:");
-//         for (let i = 0; i < this.games.length; i++) {
-//             console.log("- " + this.games[i]);
-//         }
-//     },
-//     toggleOpen: function () {
-//         // this.isOpen = !this.isOpen;
-//         console.log("Zone is now " + (this.isOpen ? "open" : "closed") + ".");
-//     }
-// };
+const gamersZone = {
+    name: "Gamers Zone",
+    location: "INDIA",
+    games: ["FORTNITE", "COD", "VALORANT"],
+    isOpen: true,
+    showLocation: function () {
+        console.log("Location: " + this.location);
+    },
+    showGames: function () {
+        console.log("Games available:");
+        for (let i = 0; i < this.games.length; i++) {
+            console.log("- " + this.games[i]);
+        }
+    },
+    toggleOpen: function () {
+        // this.isOpen = !this.isOpen;
+        console.log("Zone is now " + (this.isOpen ? "open" : "closed") + ".");
+    }
+};
 
 // console.log(person.name)
 // console.log(gamersZone.name);        
@@ -38,8 +38,14 @@
 // console.log(values);
 
 
-// const entries = Object.entries(gamersZone);
-// console.log(entries);
+
+// console.log(Object.entries(gamersZone)[2][1][1]);
+
+//object destructuring
+
+let {games,location} = gamersZone;
+games.push('GHOSTS')
+console.log(gamersZone.games)
 
 // Object.freeze(gamersZone);
 // gamersZone.name = "New Name";
@@ -48,15 +54,15 @@
 
 
 //constructor
-function person(name, age) {
-    this.name = name;
-    this.age = age;
-    this.greet = function () {
-        console.log("WELCOME");
-    };
-}
+// function person(name, age) {
+//     this.name = name;
+//     this.age = age;
+//     this.greet = function () {
+//         console.log("WELCOME");
+//     };
+// }
 
-const person2 = new person("Rakesh", 22);
+// const person2 = new person("Rakesh", 22);
 
-person2.name;
-person2.greet()
+// person2.name;
+// person2.greet()
