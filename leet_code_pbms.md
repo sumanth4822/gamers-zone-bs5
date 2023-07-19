@@ -22,4 +22,6 @@ Problems on Array
 
 [https://leetcode.com/problems/sum-of-unique-elements/](https://leetcode.com/problems/sum-of-unique-elements/) -
 
-<https://leetcode.com/problems/n-repeated-element-in-size-2n-array/> -
+[https://leetcode.com/problems/n-repeated-element-in-size-2n-array/](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) -
+
+<https://leetcode.com/problems/matrix-diagonal-sum/> -
