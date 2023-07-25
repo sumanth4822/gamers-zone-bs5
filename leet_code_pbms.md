@@ -27,3 +27,5 @@ Problems on Array
 [https://leetcode.com/problems/n-repeated-element-in-size-2n-array/](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) -
 
 [https://leetcode.com/problems/valid-parentheses/](https://leetcode.com/problems/valid-parentheses/) - 20/07/23
+
+<https://leetcode.com/problems/peak-index-in-a-mountain-array/>
